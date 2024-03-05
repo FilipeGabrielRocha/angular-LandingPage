@@ -66,6 +66,13 @@ main {
   justify-content: center;
 }
 
+.professionals-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
 @media (min-width: 1080px){
   .main-section {
     flex-direction: row;

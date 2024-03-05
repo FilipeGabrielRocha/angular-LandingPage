@@ -1,0 +1,17 @@
+@import "../../../color-variables.scss";
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h3 {
+    font-size: 34px;
+    color: $tertiary-text
+  }
+
+  p {
+    width: 500px;
+    color: $secondary-text;
+  }
+}
