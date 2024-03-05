@@ -73,6 +73,19 @@ main {
   gap: 40px;
 }
 
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+   h2 {
+    text-align: center;
+    font-size: 56px;
+   }
+}
+
 @media (min-width: 1080px){
   .main-section {
     flex-direction: row;

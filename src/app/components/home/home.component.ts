@@ -4,6 +4,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
 import { NewsletterFormComponent } from '../newsletter-form/newsletter-form.component';
 import { SmallCardComponent } from '../small-card/small-card.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -14,6 +15,7 @@ import { SmallCardComponent } from '../small-card/small-card.component';
     BtnPrimaryComponent,
     NewsletterFormComponent,
     SmallCardComponent,
+    FooterComponent,
   ],
   providers: [],
   templateUrl: './home.component.html',
